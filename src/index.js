@@ -1,5 +1,5 @@
-import { createElement, Component } from 'react';
-import { findDOMNode } from 'react-dom';
+import { createElement, Component } from 'preact';
+import { findDOMNode } from 'preact-dom';
 import * as DOMHelpers from './dom-helpers';
 import { testPassiveEventSupport } from './detect-passive-events';
 import uid from './uid';
